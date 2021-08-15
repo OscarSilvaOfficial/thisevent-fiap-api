@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("events")
+@CrossOrigin("*")
 class Controller(private val service: Services) {
 
   @GetMapping
@@ -21,7 +22,6 @@ class Controller(private val service: Services) {
     service.putTask(id, updatedEvent)
   
   @DeleteMapping("/{id}")
-  fun deleteEvent(@PathVariable(value="id") id: Long) =
-    service.deleteTask(id)
+  fun deleteEvent(@PathVariable(value="id") id: Long) = service.deleteTask(id)
   
 }
