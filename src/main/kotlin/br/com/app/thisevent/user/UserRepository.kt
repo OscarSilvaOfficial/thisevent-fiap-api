@@ -7,4 +7,4 @@ import javax.transaction.Transactional
 
 @Repository
 @Transactional(Transactional.TxType.MANDATORY)
-interface Repository : JpaRepository<User, Long>
+interface UserRepository : JpaRepository<User, Long>

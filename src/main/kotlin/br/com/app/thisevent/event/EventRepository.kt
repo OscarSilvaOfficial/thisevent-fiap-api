@@ -7,4 +7,4 @@ import javax.transaction.Transactional
 
 @Repository
 @Transactional(Transactional.TxType.MANDATORY)
-interface Repository : JpaRepository<Event, Long>
+interface EventRepository : JpaRepository<Event, Long>

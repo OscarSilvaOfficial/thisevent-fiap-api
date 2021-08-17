@@ -13,6 +13,5 @@ data class User(
   val id: Long,
   val fullname: String,
   val email: String,
-  var password: String
 
 )

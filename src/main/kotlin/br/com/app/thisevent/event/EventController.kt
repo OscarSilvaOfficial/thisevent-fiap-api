@@ -5,8 +5,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("events")
-@CrossOrigin("*")
-class Controller(private val service: Services) {
+class EventController(private val service: EventServices) {
 
   @GetMapping
   fun getEvents(): MutableList<Event> = service.getAllEvents()

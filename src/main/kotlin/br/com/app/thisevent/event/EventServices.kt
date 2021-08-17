@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.stereotype.Service
 
 @Service
-class Services(private val repository: Repository){
+class EventServices(private val repository: EventRepository){
   fun getAllEvents(): MutableList<Event> = repository.findAll()
   
   fun addEvent(event: Event) = repository.save(event)
