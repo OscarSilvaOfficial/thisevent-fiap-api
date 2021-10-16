@@ -11,7 +11,7 @@
   * Porta 3306,
   * Usuário root
   * Senha 123456
-  * Caso queira trocar, basta alterar as configurações no [application.properties](./bin/main/application.properties)
+  * Caso queira trocar, basta alterar as configurações no [application.properties](./src/main/resources/application.properties)
 
 ### Ferramentas usuadas:
 
