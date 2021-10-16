@@ -2,7 +2,7 @@
 
 ## Links relevantes
 
-[thisevent-web](https://github.com/OscarSilvaOfficial/thisevent-web.git)
+[thisevent-fiap-web](https://github.com/OscarSilvaOfficial/thisevent-fiap-web.git)
 
 ## Rodar o projeto
 
